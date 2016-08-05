@@ -24,8 +24,8 @@
         <!-- c3p0连接池的私有属性-->
         <property name="maxPoolSize" value="30"/>
         <property name="minPoolSize" value="10"/>
-        <property name="autoCommitOnClose" value="false"/>
         <!--关闭连接不自动commit-->
+        <property name="autoCommitOnClose" value="false"/>
         <property name="checkoutTimeout" value="1000"/>
         <!--当获取连接失败重试次数-->
         <property name="acquireRetryAttempts" value="2"/>

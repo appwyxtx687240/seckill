@@ -11,7 +11,7 @@
     </insert>
 
     <select id="queryByIdWithSeckill" resultType="SuccessKilled">
-        <!-- 根据id查询SuccessKilled, 并拾秒杀产品对象实体 -->
+        <!-- 根据id查询SuccessKilled, 并携带秒杀产品对象实体 -->
         <!-- 如何告诉mybatis把结果映射到SuccessKilled, 同时映射seckill属性-->
         select
             sk.seckill_id,
