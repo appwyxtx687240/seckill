@@ -1,0 +1,29 @@
+<component name="libraryTable">
+  <library name="annotations-api">
+    <CLASSES>
+      <root url="jar:///Library/Tomcat/lib/annotations-api.jar!/" />
+      <root url="jar:///Library/Tomcat/lib/catalina-ant.jar!/" />
+      <root url="jar:///Library/Tomcat/lib/catalina-ha.jar!/" />
+      <root url="jar:///Library/Tomcat/lib/catalina-storeconfig.jar!/" />
+      <root url="jar:///Library/Tomcat/lib/catalina-tribes.jar!/" />
+      <root url="jar:///Library/Tomcat/lib/catalina.jar!/" />
+      <root url="jar:///Library/Tomcat/lib/ecj-4.5.jar!/" />
+      <root url="jar:///Library/Tomcat/lib/el-api.jar!/" />
+      <root url="jar:///Library/Tomcat/lib/jasper-el.jar!/" />
+      <root url="jar:///Library/Tomcat/lib/jasper.jar!/" />
+      <root url="jar:///Library/Tomcat/lib/jsp-api.jar!/" />
+      <root url="jar:///Library/Tomcat/lib/servlet-api.jar!/" />
+      <root url="jar:///Library/Tomcat/lib/tomcat-api.jar!/" />
+      <root url="jar:///Library/Tomcat/lib/tomcat-coyote.jar!/" />
+      <root url="jar:///Library/Tomcat/lib/tomcat-dbcp.jar!/" />
+      <root url="jar:///Library/Tomcat/lib/tomcat-jdbc.jar!/" />
+      <root url="jar:///Library/Tomcat/lib/tomcat-jni.jar!/" />
+      <root url="jar:///Library/Tomcat/lib/tomcat-util-scan.jar!/" />
+      <root url="jar:///Library/Tomcat/lib/tomcat-util.jar!/" />
+      <root url="jar:///Library/Tomcat/lib/tomcat-websocket.jar!/" />
+      <root url="jar:///Library/Tomcat/lib/websocket-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

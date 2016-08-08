@@ -12,7 +12,7 @@ public class Seckill {
     private int number;
     private Date startTime;
     private Date endTime;
-    private Date createTIme;
+    private Date createTime;
 
     public long getSeckillId() {
         return seckillId;
@@ -54,12 +54,12 @@ public class Seckill {
         this.endTime = endTime;
     }
 
-    public Date getCreateTIme() {
-        return createTIme;
+    public Date getCreateTime() {
+        return createTime;
     }
 
-    public void setCreateTIme(Date createTIme) {
-        this.createTIme = createTIme;
+    public void setCreateTime(Date createTIme) {
+        this.createTime = createTime;
     }
 
     @Override
@@ -70,7 +70,7 @@ public class Seckill {
                 ", number=" + number +
                 ", startTime=" + startTime +
                 ", endTime=" + endTime +
-                ", createTIme=" + createTIme +
+                ", createTIme=" + createTime +
                 '}';
     }
 }
