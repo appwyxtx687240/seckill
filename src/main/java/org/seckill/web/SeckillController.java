@@ -81,7 +81,7 @@ public class SeckillController {
         if (userPhone == null) {
             return new SeckillResult<SeckillExecution>(false, "未注册");
         }
-        //这是一个测试test1
+
         SeckillResult<SeckillExecution> result;
         try {
             System.out.println("try");
