@@ -40,7 +40,7 @@ public class SeckillServiceImpl implements SeckillService {
     private SuccessKilledDao successKilledDao;
 
     //md5盐值字符串, 用于混淆MD5
-    private final String slat = "sefefaefawefwefaef23112rf$21312r$$!@";
+    private final String salt = "sefefaefawefwefaef23112rf$21312r$$!@";
 
     public List<Seckill> getSeckillList() {
         return seckillDao.queryAll(0, 4);
@@ -72,7 +72,7 @@ public class SeckillServiceImpl implements SeckillService {
     }
 
     private String getMD5(long seckillId) {
-        String base = seckillId + "/" + slat;
+        String base = seckillId + "/" + salt;
         String md5 = DigestUtils.md5DigestAsHex(base.getBytes());
         return md5;
     }
@@ -106,6 +106,7 @@ public class SeckillServiceImpl implements SeckillService {
                 //唯一 : seckillId, userPhone
                 if (insertCount <= 0) {
                     //重复秒杀
+                    System.out.print("重复秒杀");
                     throw new RepeatKillException("seckill repeat");
                 } else {
                     //秒杀成功
